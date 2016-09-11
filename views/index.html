@@ -8,17 +8,32 @@
     <link rel='stylesheet' href='/css/style.css' />
 </head>
 <body>
-    <header>
-        header
+    <div class="bg__main"  data-vide-bg="/vd/bg"></div>
+    <header class="header">
+        <nav class="header__nav">
+            <ul class="menu menu--left">
+                <li class="menu__item menu__item--brand"><a href="#start" class="brand"></a></li>
+                <li class="menu__item menu__item--selected"><a href="#start" class="menu__item__link">开始</a></li>
+                <li class="menu__item"><a href="#prod" class="menu__item__link">产品</a></li>
+                <li class="menu__item"><a href="#about" class="menu__item__link">关于</a></li>
+                <li class="menu__item"><a href="#connect" class="menu__item__link">联系</a></li>
+            </ul>
+        </nav>
     </header>
     <div class="container">
         container
     </div>
-    <footer>
+    <footer class="footer">
         footer
     </footer>
 
 <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="/js/plugin/jquery.vide.min.js"></script>
+<script>
+$(function(){
+
+});
+</script>
 
 </body>
 </html>
